@@ -1,0 +1,44 @@
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo-card {
+  display: flex; 
+  width: 75%;
+  margin: 15px;
+  padding: 10px;
+  border: 1px solid #f1f1f1;
+  border-radius: 5px;
+  box-shadow: 0 10px 6px -6px #f1f1f1;
+}
+
+.photo-image {
+  flex: 1; 
+  padding: 10px;
+}
+
+.photo-details {
+  flex: 1; 
+  padding: 10px;
+}
+
+.photo-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 25px;
+}
+
+.photo-title {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.photo-author {
+  color: #777;
+}
+
+.photo-date {
+  color: #777;
+}
